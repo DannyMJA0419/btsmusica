@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>HOLA</pattern>
+        <template>
+            ¡Hola ARMY! Soy tu asistente para hacerte recomendaciones acerca de canciones de BTS. ¿En qué puedo ayudarte hoy?
+        </template>
+    </category>
+
+    
+    <category>
+        <pattern>¿* canciones de BTS conoces?</pattern>
+        <template>
+            Conozco muchas canciones de BTS. Algunas recomendaciones incluyen "Dynamite", "Blood Sweat & Tears" y "Boy With Luv". ¿Quieres más información sobre alguna en particular?
+        </template>
+    </category>
+
+   
+    <category>
+        <pattern>¿Qué canción de BTS me recomiendas?</pattern>
+        <template>
+            <random>
+                <li>Te recomendaría escuchar "Spring Day".</li>
+                <li>¿Has escuchado "Butter"? ¡Es genial, la  coreografía es increíble!</li>
+                <li>Una excelente elección sería "Mic Drop".</li>
+            </random>
+            ¿Te gustaría más recomendaciones?
+        </template>
+    </category>
+
+    
+    <category>
+        <pattern>ADIOS</pattern>
+        <template>
+            ¡Hasta luego ARMY! Disfruta escuchando las canciones de BTS.
+        </template>
+    </category>
+
+    
+    <category>
+        <pattern>*</pattern>
+        <template>
+            Lo siento, no entendí muy bien. ¿Podrías volver a hacer tu pregunta sobre alguna canción de BTS?
+        </template>
+    </category>
+
+</aiml>
